@@ -1,0 +1,478 @@
+@media (min-width: 768px){
+    
+    .mainSlide{
+        margin-top: 66px;
+    }
+    /* mainslide */
+
+    .txtSlide{
+        padding: 30px 0 25px 0;
+    }
+    .txtSlide .ani .track p{
+        font-size: 40px;
+    }
+    /* txtSlide */
+
+    .content .cWrap .ctxt h2{
+        font-size: 30px;
+    }
+    .content .cWrap .ctxt p{
+        font-size: 13px;
+    }
+
+    .content .cWrap .cslide .cbox .item{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .content .cWrap .cslide .cbox .item .txt h4{
+        font-size: 20px;
+    }
+    .content .cWrap .cslide .cbox .item .txt p{
+        font-size: 14px;
+    }
+    .content .cWrap .cslide .btn .left,
+    .content .cWrap .cslide .btn .right{
+        bottom: 54%;
+    }
+    /* content */
+
+    .content2 .cWrap .ctxt h2{
+        font-size: 30px;
+    }
+    .content2 .cWrap .ctxt p{
+        font-size: 13px;
+    }
+
+    .content2 .cWrap .cslide .cbox .item{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .content2 .cWrap .cslide .cbox .item .txt h4{
+        font-size: 20px;
+    }
+    .content2 .cWrap .cslide .cbox .item .txt p{
+        font-size: 14px;
+    }
+    .content2 .cWrap .cslide .btn .left2,
+    .content2 .cWrap .cslide .btn .right2{
+        bottom: 56%;
+    }
+    /* content2 */
+
+    .content3 .stxt p{
+        font-size: 14px;
+    }
+    .content3 .stxt h2{
+        font-size: 30px;
+    }
+
+    .content3 .cWrap .cslide .cbox .item .txt p{
+        font-size: 16px;
+    }
+    .content3 .cWrap .cslide .cbox .item .txt h4{
+        font-size: 20px;
+    }
+    /* content3 */
+}
+
+@media (min-width: 1024px){
+
+    header .hWrap .hbottom{
+        display: block;
+    }
+    header .hWrap .hbottom .gnb{
+        display: flex;
+        margin-top: 20px;
+    }
+    header .hWrap .hbottom .gnb li{
+        font-size: 30px;
+        font-family: 'NanumSquareExtraBold';
+        padding-right: 20px;
+    }
+    header .hWrap .hbottom .util{
+        display: flex;
+        margin-top: 15px;
+    }
+    header .hWrap .hbottom .util li{
+        font-family: 'NanumSquareBold';
+        margin-right: 20px;
+    }
+    /* header */
+
+    aside{
+        top: 160px;
+        height: calc(100vh - 160px);
+    }
+    /* aside */
+
+    .mainSlide{
+        margin-top: 160px;
+    }
+    .mainSlide .swiper-slide a img:first-child{
+        display: none;
+    }
+    .mainSlide .swiper-slide a img:last-child{
+        display: block;
+    }
+    /* mainslide */
+
+    .txtSlide{
+        padding: 40px 0 35px 0;
+    }
+    /* txtSlide */
+
+    .content{}
+    .content .cWrap{
+        display: flex;
+    }
+    .content .cWrap .ctxt{
+        position: relative;
+        border-right: 1px solid #888;
+        margin-top: 0;
+        padding: 20px;
+        width: 30%;
+        box-sizing: content-box;
+    }
+    .content .cWrap .ctxt h2{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        font-size: 35px;
+    }
+    .content .cWrap .ctxt img{
+        display: block;
+        width: 100%;
+    }
+    .content .cWrap .ctxt p{
+        display: none;
+    }
+
+    .content .cWrap .cslide{
+        margin-top: 0;
+        padding: 20px;
+        width: 70%;
+    }
+    .content .cWrap .cslide *{
+        cursor: url(../images/mouse.png), pointer;
+    }
+    .content .cWrap .cslide .swiper-slide{
+        display: flex;
+    }
+    .content .cWrap .cslide .swiper-slide .txt h4{
+        font-size: 20px;
+    }
+    .content .cWrap .cslide .swiper-slide .txt p{
+        font-size: 15px;
+    }
+
+    .content .cWrap .cslide .btn{
+        display: none;
+    }
+
+    .content .cWrap .cslide .swiper-scrollbar{
+        display: block;
+    }
+    /* content */
+
+    .content2{
+        margin-top: 0;
+    }
+    .content2 .cWrap{
+        display: flex;
+    }
+    .content2 .cWrap .ctxt{
+        position: relative;
+        border-right: 1px solid #888;
+        margin-top: 0;
+        padding: 20px;
+        width: 30%;
+        box-sizing: content-box;
+    }
+    .content2 .cWrap .ctxt h2{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        font-size: 35px;
+    }
+    .content2 .cWrap .ctxt img{
+        display: block;
+        width: 100%;
+    }
+    .content2 .cWrap .ctxt p{
+        display: none;
+    }
+
+    .content2 .cWrap .cslide2{
+        margin-top: 0;
+        padding: 20px;
+        width: 70%;
+    }
+    .content2 .cWrap .cslide2 *{
+        cursor: url(../images/mouse.png), pointer;
+    }
+    .content2 .cWrap .cslide2 .swiper-slide{
+        display: flex;
+    }
+    
+    .content2 .cWrap .cslide2 .swiper-slide .txt h4{
+        font-size: 20px;
+    }
+    .content2 .cWrap .cslide2 .swiper-slide .txt p{
+        font-size: 15px;
+    }
+
+    .content2 .cWrap .cslide2 .btn{
+        display: none;
+    }
+
+    .content2 .cWrap .cslide .swiper-scrollbar{
+        display: block;
+    }
+    /* content2 */
+
+    .content3{}
+    .content3:hover{
+        cursor: url(images/mouse.png), auto;
+    }
+    .content3 .stxt{
+        padding-left: 40px;
+    }
+    .content3 .stxt p{
+        font-size: 15px;
+    }
+    .content3 .stxt h2{
+        font-size: 35px;
+    }
+
+    .content3 .cicon{
+        top: 20px;
+    }
+    .content3 .cicon img{
+        width: 130px;
+    }
+
+    .content3 .c_more p{
+        font-size: 25px;
+    }
+    .content3 .c_more .icon img{
+        width: 30px;
+    }
+
+    .content3 .cWrap .cslide3 *{
+        cursor: url(../images/mouse.png), pointer;
+    }
+    
+    .content3 .cWrap .cslide3 .swiper-slide .txt p{
+        font-size: 15px;
+    }
+    .content3 .cWrap .cslide3 .swiper-slide .txt h4{
+        font-size: 20px;
+    }
+    .content3 .cWrap .cslide3 .swiper-slide img{
+        width: 100%;
+    }
+    /* content3 */
+
+    .board{
+        display: flex;
+        margin-bottom: 100px;
+    }
+    
+    .board .notice{
+        width: calc((100% - 264px) / 12 * 5 + 24px * 4);
+        margin-right: 20px;
+    }
+    .board .notice .txt h2,
+    .board .note .txt h2{
+        font-size: 30px;
+        font-family: 'NanumSquareExtraBold';
+    }
+    .board .notice .txt .nMore a p{
+        font-size: 13px;
+    }
+    /* notice */
+
+    .board .note{
+        display: block;
+        width: calc((100% - 264px) / 12 * 4 + 24px * 3);
+        margin-right: 20px;
+    }
+    .board .note .txt{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #888;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    .board .note .txt .nMore a{
+        display: flex;
+    }
+    .board .note .txt .nMore a p{
+        font-size: 13px;
+        font-family: 'NanumSquare';
+        color: #6d6d6d;
+        padding-right: 5px;
+    }
+    .board .note .txt .nMore a img{
+        width: 15px;
+    }
+
+    .board .note ul{
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .board .note ul li{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-bottom: 20px;
+        list-style-type: disc;
+        align-items: center;
+    }
+    .board .note ul li a{
+        display: block;
+        margin-right: 50px;
+        font-size: 17px;
+        font-family: 'NanumSquareBold';
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .board .note ul li a::before{
+        content: '';
+        width: 4px;
+        height: 4px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 6px;
+        left: 0;
+    }
+    .board .note ul li span{
+        font-size: 13px;
+        font-family: 'NanumSquare';
+        color: #6d6d6d;
+    }
+
+    .board .b_info{
+        display: block;
+        width: calc((100% - 264px) / 12 * 3 + 24px * 2);
+        padding: 40px;
+        background-color: #ccc;
+    }
+    .board .b_infoWrap{
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    
+    .board .b_info .b_infoWrap h4{
+        font-size: 20px;
+        font-family: 'NanumSquareBold';
+        margin-bottom: 20px;
+    }
+    .board .b_info .b_infoWrap a{
+        display: block;
+        font-size: 25px;
+        font-family: 'NanumSquareExtraBold';
+        margin-bottom: 20px;
+    }
+    .board .b_info .b_infoWrap em{
+        font-style: normal;
+        font-family: 'NanumSquare';
+    }
+    
+    .board .b_info .b_infoWrap .b_date1{
+        position: relative;
+        margin-bottom: 12px;
+    }
+    .board .b_info .b_infoWrap .b_date1 strong{
+        padding-right: 30px;
+        padding-left: 12px;
+        font-family: 'NanumSquareBold';
+    }
+    .board .b_info .b_infoWrap .b_date1 strong::before{
+        content: '';
+        width: 4px;
+        height: 4px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        left: 0;
+    }
+    .board .b_info .b_infoWrap .b_date2{
+        position: relative;
+    }
+    .board .b_info .b_infoWrap .b_date2 strong{
+        padding-right: 44px;
+        padding-left: 12px;
+        font-family: 'NanumSquareBold';
+    }
+    .board .b_info .b_infoWrap .b_date2 strong::before{
+        content: '';
+        width: 4px;
+        height: 4px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        left: 0;
+    }
+    .board .b_info .b_infoWrap .b_date2 span{
+        display: inline-block;
+        font-size: 13px;
+        font-family: 'NanumSquare';
+        color: red;
+    }
+    .board .b_info .b_infoWrap .b_date3{
+        font-size: 13px;
+        color: red;
+        margin-top: 30px;
+    }
+    /* note */
+
+    
+    
+    
+
+    footer .fWrap{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer .fWrap .flogo{
+        display: block;
+    }
+    footer .fWrap .flogo .ftxt p{
+        text-align: left;
+    }
+    footer .fWrap .fBtn{
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
